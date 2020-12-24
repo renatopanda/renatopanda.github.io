@@ -2,23 +2,25 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: <small><a href="https://www.cisuc.uc.pt" target="_blank">CISUC</a> - Centre for Informatics and Systems of the University of Coimbra.<br/><a href="http://mir.dei.uc.pt" target="_blank">MIRlab</a> - Music Information Retrieval . CISUC<br/>panda@dei.uc.pt.</small>
 
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+#  address: >
+#    <p>panda@dei.uc.pt</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a member at the Centre for Informatics and Systems of the University of Coimbra
+([CISUC](https://www.cisuc.uc.pt){:target="\_blank"}), belonging to the Cognitive and Media Systems (CMS) group and the [MIR](http://mir.dei.uc.pt/){:target="\_blank"} lab. I hold a Ph.D. in Information Science and Technology by the University of Coimbra ([UC](http://www.uc.pt/){:target="\_blank"}). I have participated in 3 research projects and published several papers in international journals and conference proceedings.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interests are focused on pattern recognition, namely Music Emotion Recognition (MER) and Music Information Retrieval (MIR) from audio and lyrics. Additionally, I have also worked on applied research projects dealing with machine learning and modern software development patterns for different problems from health/well-being to tourism data. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+During the 2019/2020 academic year I worked as an full time Assistant Professor (non-Tenure)
+(_Professor Adjunto Convidado a 100%_) at the Tomar Technology School (ESTT) of the Polytechnic Institute of Tomar ([IPT](http://www.ipt.pt/){:target="\_blank"}). Previously I have worked at the same institution as a Teaching Assistant and have been a grant holder at [CISUC](https://www.cisuc.uc.pt){:target="\_blank"}, as well as the Portuguese [FCT](https://www.fct.pt){:target="\_blank"}.
+
+In my free times I enjoy spending time with friends and family, physical exercise, comics, hiking, photography, genealogy, and spending time in side projects such as [TOSEC](https://www.tosecdev.org/){:target="\_blank"} (The Old School Emulation Center).

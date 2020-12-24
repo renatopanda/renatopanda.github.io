@@ -95,6 +95,15 @@ $ cd <your-repo-name>
 $ bundle install
 $ bundle exec jekyll serve
 ```
+Using Vagrant:
+```bash
+$ vagrant up 
+$ vagrant ssh # follow from the 2nd provision script since it will fail during _up_
+$ cd /vagrant
+$ bundle install
+$ bundle exec jekyll serve -H 0.0.0.0
+# open http://localhost:4000/al-folio/
+```
 
 Now, feel free to customize the theme however you like (don't forget to change the name!).
 After you are done, **commit** your final changes.

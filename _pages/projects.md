@@ -1,14 +1,23 @@
 ---
-layout: page
+layout: projects_page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A growing list of projects I have been involved with.
 nav: true
+headers:
+  - title: "funded research projects"
+    category: research
+  - title: "academic projects"
+    category: academic
+  - title: "personal projects"
+    category: personal
 ---
 
-<div class="projects grid">
+{% for test in page.headers %}
+<h3 id="{{test.category}}" class="anchor">{{ test.title }}</h3>
 
-  {% assign sorted_projects = site.projects | sort: "importance" %}
+<div class="projects grid">
+  {% assign sorted_projects = site.projects | where: "categories", test.category | sort: "importance" %}
   {% for project in sorted_projects %}
   <div class="grid-item">
     {% if project.redirect %}
@@ -45,3 +54,5 @@ nav: true
 {% endfor %}
 
 </div>
+
+{% endfor %}
