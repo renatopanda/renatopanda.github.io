@@ -81,8 +81,8 @@ git checkout -b $DEPLOY_BRANCH
 bundle exec jekyll build
 
 # Delete and move files
-find . -maxdepth 1 ! -name '_site' ! -name 'Vagrantfile' ! -name '.vagrant' ! -name 'ubuntu-xenial-16.04-cloudimg-console.log' ! -name '.git' ! -name 'CNAME' ! -name '.gitignore' -exec rm -rf {} \;
-rm _site/bin/* _site/ubuntu-xenial-16.04-cloudimg-console.log # ignore these that cannot be moved
+find . -maxdepth 1 ! -name '_site' ! ! -name './bin/deploy' ! -name 'Vagrantfile' ! -name '.vagrant' ! -name 'ubuntu-xenial-16.04-cloudimg-console.log' ! -name '.git' ! -name 'CNAME' ! -name '.gitignore' -exec rm -rf {} \;
+rm -Rf _site/bin/ _site/ubuntu-xenial-16.04-cloudimg-console.log # ignore these that cannot be moved
 mv _site/* .
 rm -R _site/
 
