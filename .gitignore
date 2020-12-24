@@ -5,7 +5,7 @@ _site
 .ruby-version
 Gemfile.lock
 .tweet-cache/
-
+ubuntu-xenial-16.04-cloudimg-console.log
 
 # Created by https://www.toptal.com/developers/gitignore/api/vagrant,linux,windows,jekyll,sublimetext
 # Edit at https://www.toptal.com/developers/gitignore?templates=vagrant,linux,windows,jekyll,sublimetext

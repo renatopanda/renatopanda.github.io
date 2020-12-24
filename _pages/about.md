@@ -20,7 +20,6 @@ I am a member at the Centre for Informatics and Systems of the University of Coi
 
 My research interests are focused on pattern recognition, namely Music Emotion Recognition (MER) and Music Information Retrieval (MIR) from audio and lyrics. Additionally, I have also worked on applied research projects dealing with machine learning and modern software development patterns for different problems from health/well-being to tourism data. 
 
-During the 2019/2020 academic year I worked as an full time Assistant Professor (non-Tenure)
-(_Professor Adjunto Convidado a 100%_) at the Tomar Technology School (ESTT) of the Polytechnic Institute of Tomar ([IPT](http://www.ipt.pt/){:target="\_blank"}). Previously I have worked at the same institution as a Teaching Assistant and have been a grant holder at [CISUC](https://www.cisuc.uc.pt){:target="\_blank"}, as well as the Portuguese [FCT](https://www.fct.pt){:target="\_blank"}.
+During the 2019/2020 academic year I worked as an full time Assistant Professor (non-Tenure) at the Tomar Technology School (ESTT) of the Polytechnic Institute of Tomar ([IPT](http://www.ipt.pt/){:target="\_blank"}). Previously I have worked at the same institution as a Teaching Assistant and have been a grant holder at [CISUC](https://www.cisuc.uc.pt){:target="\_blank"}, as well as the Portuguese [FCT](https://www.fct.pt){:target="\_blank"}.
 
 In my free times I enjoy spending time with friends and family, physical exercise, comics, hiking, photography, genealogy, and spending time in side projects such as [TOSEC](https://www.tosecdev.org/){:target="\_blank"} (The Old School Emulation Center).

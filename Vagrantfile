@@ -25,10 +25,10 @@ Vagrant.configure("2") do |config|
   # NOTE: This will enable public access to the opened port
   config.vm.network "forwarded_port", guest: 4000, host: 4000
 
-  # disable stupid log file
-  config.vm.provider "virtualbox" do |vb|
-    vb.customize [ "modifyvm", :id, "--uartmode1", "disconnected" ]
-  end
+  # disable stupid log file - with this doesnt boot...
+  #config.vm.provider "virtualbox" do |vb|
+  #  vb.customize [ "modifyvm", :id, "--uartmode1", "disconnected" ]
+  #end
   # Create a forwarded port mapping which allows access to a specific port
   # within the machine from a port on the host machine and only allow access
   # via 127.0.0.1 to disable public access
