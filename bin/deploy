@@ -88,6 +88,7 @@ rm -R _site/
 
 # Push to DEPLOY_BRANCH
 git add -fA
+git reset .vagrant
 git commit --allow-empty -m "$(git log -1 --pretty=%B) [ci skip]"
 git push -f -q origin $DEPLOY_BRANCH
 
