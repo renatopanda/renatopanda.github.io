@@ -2,7 +2,7 @@
 layout: page
 title: MOODetector
 description: "<b>A System for Mood-based Classification and Retrieval of Audio Music</b> | May 2010 - November 2013 (42 months) | <i>Financed by the FCT: 77 304 €</i>"
-webpage: http://mir.dei.uc.pt/projects.html#MOODetector
+website: http://mir.dei.uc.pt/projects.html#MOODetector
 img: /assets/img/appMOODetector_reloaded.jpg
 categories: research
 importance: 1

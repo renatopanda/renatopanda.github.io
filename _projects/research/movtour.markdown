@@ -2,7 +2,7 @@
 layout: page
 title: MovTour
 description: "<b>Tourism and Culture with and for Society</b> | October 2017 – April 2019 (18 months) | <i>Financed by FEDER / P2020: 120 435€</i>"
-webpage: http://portal2.ipt.pt/pt/ipt/unidades_de_i_d_tecnologico_e_artistico/l_tour/movtour_turismo_e_cultura_com_e_para_a_sociedade/
+website: http://portal2.ipt.pt/pt/ipt/unidades_de_i_d_tecnologico_e_artistico/l_tour/movtour_turismo_e_cultura_com_e_para_a_sociedade/
 img: /assets/img/movtour1.jpg
 categories: research
 importance: 3

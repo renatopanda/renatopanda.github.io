@@ -2,7 +2,7 @@
 layout: page
 title: VITASENIOR-MT
 description: "<b>Senior healthcare assistance in Medio Tejo</b> | September 2017 - September 2019 (24 months) | <i>Financed by FEDER / CENTRO2020 / FCT: 127 189€</i>"
-webpage: http://vita.ipt.pt/vitasenior-mt/
+website: http://vita.ipt.pt/vitasenior-mt/
 img: /assets/img/vitasenior.jpg
 categories: research
 importance: 2
