@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Renato  Panda | blank</title>
+<title>Renato  Panda | Strate App</title>
 <meta name="description" content="A simple webpage describing my work and life.
 ">
 
@@ -29,7 +29,7 @@
 <link rel="shortcut icon" href="/assets/img/favicon.ico">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/academic/strate_app/">
 
 <!-- Theming-->
 
@@ -149,56 +149,75 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>Random bits about research or life in general</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">Strate App</h1>
+    <p class="post-description"><b>HW and SW solution to detect enduro bike crashes</b> | BSc project | 2019/2020 | Supervisor</p>
+  </header>
 
+  <article>
+    <p>The initial idea was proposed by <a href="https://github.com/bettercallcruz" target="_blank">Pedro Cruz</a>, a BSc student which practices Enduro motorcycle sport – create a simple system to detect falls during his Enduro trips and message his emergency contact.</p>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/github-metadata/">a post with github metadata</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>a quick run down on accessing github metadata.</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/twitter/">a post with twitter</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>an example of a blog post with twitter</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2018/distill/">a distill-style blog post</a></h3>
-        <p class="post-meta">December 22, 2018</p>
-        <p>an example of a distill-style blog post and main elements</p>
-      </li>
-    
-  </ul>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/strate_architecture.jpg" alt="" title="System architecture diagram" />
+    </div>
+</div>
+<div class="caption">
+    Architecture of the prototype with the various services communicating through the message broker.
+</div>
 
-  
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="blank">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blank - page 2">2</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="blank - page 3">3</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
+<p>Although being a bachelor degree project, it started earlier (in September 2019) and exposed the student to a myriad of different concepts:</p>
+<ul>
+  <li>Hardware / device creation (3D printed box, ESP32, MPU6050, battery)</li>
+  <li>Real-time operating systems programming (FreeRTOS) with parallel tasks accross the available cores</li>
+  <li>Mobile app development (React Native Android app that controls the hardware and reads sensors data via Bluetooth)</li>
+  <li>Backend development (using Node.JS and MongoDB)</li>
+  <li>Introduction to pattern recognition (data analysis, simple decision trees, possibility of exploring simple machine learning concepts)</li>
+</ul>
 
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/strate_hw_diagram.jpg" alt="" title="Hardware diagram" />
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/strate_app_trip.jpg" alt="" title="Android screen for trip details" />
+    </div>
+</div>
+<div class="caption">
+    On the left, the proposed hardware solution. Right, the android app logging data from the current trip.
+</div>
 
+<p>The year long project was divided in several mini-projects, from hardware testing, selection and design. Developing the freeRTOS code, Android App, collecting some example datasets, API+frontend and data analysis.</p>
+
+<p>The HW part was one of the major challenges, testing different prototypes and even printing a 3D case.</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/strate_hw_v1.jpg" alt="" title="Prototype v1 onboard" />
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/strate_hw_v1_2.jpg" alt="" title="Prototype v1 open" />
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/strate_hw_v2.jpg" alt="" title="Final HW prototype" />
+    </div>
+</div>
+<div class="caption">
+    Evolution of the HW prototype, from the first version (tupperware) to the last (printed 3D case).
+</div>
+
+<p>Although unfinished, the last part consisted in analysing data from trips and simulated crashes.</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/strate_data_analysis.jpg" alt="" title="Application diagram" />
+    </div>
+</div>
+<div class="caption">
+    Sensor data analysis and visualization for a short test trip.
+</div>
+
+  </article>
 
 </div>
 

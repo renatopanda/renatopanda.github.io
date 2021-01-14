@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Renato  Panda | blank</title>
+<title>Renato  Panda | MER Web Concept</title>
 <meta name="description" content="A simple webpage describing my work and life.
 ">
 
@@ -29,7 +29,7 @@
 <link rel="shortcut icon" href="/assets/img/favicon.ico">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/academic/MERconcept/">
 
 <!-- Theming-->
 
@@ -149,56 +149,37 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>Random bits about research or life in general</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">MER Web Concept</h1>
+    <p class="post-description"><b>A distributed MER system proof-of-concept using microservices</b> | MSc and BSc projects | 2018/2019 | Supervisor</p>
+  </header>
 
+  <article>
+    <p>The aim of the project was to study and implement a robust, distributed MER proof-of-concept system that could be expanded with novel algorithms in the future. The work was focused on software engineering, exploring the usage of microservices implemented with simple containers and message queues. The MER components were simple, serving as proof of concept: YouTube was used as the source of songs, while the Essentia framework and Support Vector Machines were used to feature extraction and machine learning respectively.</p>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/github-metadata/">a post with github metadata</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>a quick run down on accessing github metadata.</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/twitter/">a post with twitter</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>an example of a blog post with twitter</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2018/distill/">a distill-style blog post</a></h3>
-        <p class="post-meta">December 22, 2018</p>
-        <p>an example of a distill-style blog post and main elements</p>
-      </li>
-    
-  </ul>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/dockerMER_architecture.jpg" alt="" title="System architecture diagram" />
+    </div>
+</div>
+<div class="caption">
+    Architecture of the prototype with the various services communicating through the message broker.
+</div>
 
-  
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="blank">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blank - page 2">2</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="blank - page 3">3</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
+<p>The MER systems were developed by Ricardo António (<a href="http://hdl.handle.net/10400.26/31444" target="_blank">MSc project</a>), while the React frontend and API were part of the BSc final project of <a href="https://github.com/Tiago622" target="_blank">Tiago António</a> and <a href="https://github.com/tiagoareias" target="_blank">Tiago Areias</a> at Polytechnic Institute of Tomar.</p>
 
+<div class="embed-container">
+  <iframe src="https://www.youtube.com/embed/m4ySmVLXkMw" width="700" height="480" frameborder="0" allowfullscreen="">
+  </iframe>
+</div>
 
+<div class="caption">
+    A simple demo of the system classifying 3 youtube videos.
+</div>
+
+<p>A more complex and robust version (v2) is being built based on the knowledge gathered from this project.</p>
+
+  </article>
 
 </div>
 

@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Renato  Panda | blank</title>
+<title>Renato  Panda | Expenses-OCR</title>
 <meta name="description" content="A simple webpage describing my work and life.
 ">
 
@@ -29,7 +29,7 @@
 <link rel="shortcut icon" href="/assets/img/favicon.ico">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/academic/ExpensesOCR/">
 
 <!-- Theming-->
 
@@ -149,56 +149,59 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>Random bits about research or life in general</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">Expenses-OCR</h1>
+    <p class="post-description"><b>Mobile App using OCR to process invoces</b> | BSc project | 2018/2019 | Supervisor</p>
+  </header>
 
+  <article>
+    <p>The problem was introduced by an external company as a challenge (Softinsa/IBM) and independently supervised by me at IPT and developed by <a href="https://github.com/helderfoca" target="_blank">Hélder Lopes</a> and <a href="https://github.com/aluno19987" target="_blank">Edgar Oliveira</a>: a solution to improve how collaborators report travel expenses. The students developed an Android application (prototype), which uses optical characters recognition and machine learning, to scan invoices (e.g., meal, gas, train) and recognize the type and expense, introducing it in the system.</p>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/github-metadata/">a post with github metadata</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>a quick run down on accessing github metadata.</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/twitter/">a post with twitter</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>an example of a blog post with twitter</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2018/distill/">a distill-style blog post</a></h3>
-        <p class="post-meta">December 22, 2018</p>
-        <p>an example of a distill-style blog post and main elements</p>
-      </li>
-    
-  </ul>
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/expensesOCR_diagram.jpg" alt="" title="Application diagram" />
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/expensesOCR7.jpg" alt="" title="Processed invoice" />
+    </div>
+</div>
+<div class="caption">
+    ExpensesOCR sequence diagram (in PT, from the BSc project report), and an invoice processed with OpenCV.
+</div>
 
-  
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="blank">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blank - page 2">2</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="blank - page 3">3</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
+<p>To this end, the students were tested several different solutions, settling with Android native development, OpenCV for OCR and MonkeyLearn to the the text classification into one of the possible categories.</p>
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/expensesOCR1.jpg" alt="" title="Application diagram" />
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/expensesOCR3.jpg" alt="" title="Application diagram" />
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/expensesOCR4.jpg" alt="" title="Application diagram" />
+    </div>
+</div>
+<div class="caption">
+    Aplication screenshots for login, scanning the photo of an invoice and auto-filling the forms.
+</div>
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/expensesOCR2.jpg" alt="" title="Application diagram" />
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/expensesOCR5.jpg" alt="" title="Application diagram" />
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/expensesOCR6.jpg" alt="" title="Application diagram" />
+    </div>
+</div>
+<div class="caption">
+    Application capturing an invoice and detecting the invoice edges.
+</div>
+
+  </article>
 
 </div>
 
